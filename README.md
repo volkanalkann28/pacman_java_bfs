@@ -26,14 +26,20 @@ A complete 2D Pac-Man game engine implemented in Java using the **StdDraw** grap
    git clone [https://github.com/your-username/pacman-java-bfs.git](https://github.com/your-username/pacman-java-bfs.git)
    cd pacman-java-bfs
    ```
-2. **Compile the source code:**
+2. ### Compilation & Execution
+
+#### 1. Run Standard Version (`src`)
    ```bash
    javac -cp .:StdDraw.jar src/*.java -d bin/
-   ```
-3. **Run the game:**
-   ```bash
    java -cp bin:StdDraw.jar Main
    ```
+
+#### 2. Run Bonus Version with Time Backtracking (bonus)
+   ```bash
+   javac -cp .:StdDraw.jar bonus/*.java -d bin/
+   java -cp bin:StdDraw.jar Main
+   ```
+
 ### Game Controls
 * **Action,Key
 * **Move Up / Down / Left / Right ,Arrow Keys(↑, ↓, ←, →)
