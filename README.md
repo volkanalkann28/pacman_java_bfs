@@ -40,11 +40,12 @@ A complete 2D Pac-Man game engine implemented in Java using the **StdDraw** grap
    java -cp bin:StdDraw.jar Main
    ```
 
-### Game Controls
-* **Action,Key
-* **Move Up / Down / Left / Right ,Arrow Keys(↑, ↓, ←, →)
-* **Start Game,Space
-* **Pause / Resume,P
-* **Quit Game,Q
-* **Restart Game(Game Over/Won,R
-   
+## 🎮 Game Controls
+
+| Action | Key |
+| :--- | :--- |
+| **Move Up / Down / Left / Right** | Arrow Keys (`↑`, `↓`, `←`, `→`) |
+| **Start Game** | `Space` |
+| **Pause / Resume** | `P` |
+| **Restart Game (Game Over / Won)** | `R` |
+| **Quit Game** | `Q` |
